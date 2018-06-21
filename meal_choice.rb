@@ -5,7 +5,19 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
+def breakfast(breakfast_food, time_of_day)
+  puts "I want #{breakfast_food}, because it is #{time_of_day}"
+end 
+breakfast("waffels", "9am")
+ 
+ def lunch(lunch_food, drink)
+   puts " I would like to have #{lunch_food} for lunch with #{drink} to drink"
+ end 
+ lunch("grilled cheese","Coke")
 
+def dinner 
+  puts "For dinner I am having a salad for dinner and ice cream for dessert!"
+end 
 
 
 
